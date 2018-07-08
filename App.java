@@ -29,7 +29,7 @@ public class App extends ListenerAdapter
     	MessageChannel output = evt.getChannel();
     	Message input = evt.getMessage();
 	
-     if(input.getContentRaw().substring(0, 7).equalsIgnoreCase(Reference.prefix + "access")) {
+     if(input.getContentRaw().substring(0, 5).equalsIgnoreCase(Reference.prefix + "snap")) {
      //DARSHAN INSERT YOUR MATH.RANDOM BS AND STUFF HERE MY DUDE
      
      }
