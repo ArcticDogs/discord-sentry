@@ -28,6 +28,11 @@ public class App extends ListenerAdapter
     	User user = evt.getAuthor();
     	MessageChannel output = evt.getChannel();
     	Message input = evt.getMessage();
+	
+     if(input.getContentRaw().substring(0, 7).equalsIgnoreCase(Reference.prefix + "access")) {
+     //DARSHAN INSERT YOUR MATH.RANDOM BS AND STUFF HERE MY DUDE
+     
+     }
     	
     	}
 }
